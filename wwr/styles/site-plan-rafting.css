@@ -23,10 +23,10 @@ Fonts are separated by a & */
   --paragraph-color-on-white: #1e6c78; /* paragraph text on a white background */
   --paragraph-color-on-color: #f9ecd5; /* paragraph text on a colored background */
   --paragraph-background-color: #1e6c78;
-  --nav-link-color: #1e6c78;
+  --nav-link-color: #133646;
   --nav-background-color: #cf6923;
   --nav-hover-link-color: #f9ecd5;
-  --nav-hover-background-color: #1e6c78;
+  --nav-hover-background-color: #133646;
   /* TODO: Week02 - test out your colors using by viewing your html and interacting with it. Make sure the contrast is enough that things can be easily read*/
 }
 
