@@ -18,15 +18,15 @@ Fonts are separated by a & */
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* TODO: Week02 - these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396e94; /* headlines on a white background */
-  --headline-color-on-color: white; /* headlines on a colored background */
-  --paragraph-color-on-white: #396e94; /* paragraph text on a white background */
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */
-  --paragraph-background-color: #396e94;
-  --nav-link-color: #396e94;
-  --nav-background-color: #d4ac0d;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396e94;
+  --headline-color-on-white: #1e6c78; /* headlines on a white background */
+  --headline-color-on-color: #f9ecd5; /* headlines on a colored background */
+  --paragraph-color-on-white: #1e6c78; /* paragraph text on a white background */
+  --paragraph-color-on-color: #f9ecd5; /* paragraph text on a colored background */
+  --paragraph-background-color: #1e6c78;
+  --nav-link-color: #1e6c78;
+  --nav-background-color: #cf6923;
+  --nav-hover-link-color: #f9ecd5;
+  --nav-hover-background-color: #1e6c78;
   /* TODO: Week02 - test out your colors using by viewing your html and interacting with it. Make sure the contrast is enough that things can be easily read*/
 }
 
