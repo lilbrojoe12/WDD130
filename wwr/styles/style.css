@@ -27,29 +27,29 @@ main section {
 
 /* Page background */
 body {
-    background-color: #f4f4f4; /* Light background */
-    color: #333333; /* General body text color */
+    background-color: #f4f4f4;
+    color: #333333;
 }
 
 /* Header styling */
 header {
-    background-color: #1e3d59; /* Dark blue */
+    background-color: #1e3d59;
     color: #ffffff;
 }
 
 /* Navigation */
 nav a:hover {
-    background-color: #ff6f61; /* Accent color on hover */
-    color: #ffffff; /* Ensure text is readable */
+    background-color: #ff6f61;
+    color: #ffffff;
 }
 
 /* Hero text */
 .home-title {
-    color: #1e3d59; /* Primary branding color */
+    color: #1e3d59;
 }
 
 h4 {
-    color: #1e3d59; /* Match branding or provide contrast */
+    color: #1e3d59;
 }
 
 /* Buttons */
@@ -71,7 +71,7 @@ h4 {
 
 /* Background element section */
 #background {
-    background-color: #dbe9ee; /* Soft background */
+    background-color: #dbe9ee;
 }
 
 /* Message section */
@@ -82,11 +82,11 @@ h4 {
 }
 
 .msg h2 {
-    color: #1e3d59; /* Header color for message section */
+    color: #1e3d59;
 }
 
 .msg p {
-    color: #333333; /* Paragraph text in message section */
+    color: #333333;
 }
 
 /* Footer */
@@ -103,5 +103,18 @@ footer a {
 }
 
 footer a:hover {
-    color: #ffcc00; /* Highlight link hover with a bright contrast */
+    color: #ffcc00;
+}
+
+/* Image Widths */
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
 }
