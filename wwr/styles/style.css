@@ -50,10 +50,7 @@ h4 {
 .join {
     background-color: #1e3d59;
     color: #ffffff;
-    padding: 10px 20px;
     text-decoration: none;
-    display: inline-block;
-    border-radius: 5px;
 }
 
 .book:hover,
@@ -85,7 +82,6 @@ footer {
     background-color: #1e3d59;
     color: #ffffff;
     text-align: center;
-    padding: 15px 0;
 }
 
 footer a {
