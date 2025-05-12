@@ -7,6 +7,7 @@
 /* Centering text */
 nav a {
     text-align: center;
+    color: #ffffff; /* Replace with your text color */
 }
 
 #hero-msg h1,
@@ -24,27 +25,38 @@ main section {
 
 /* Background and Text Colors */
 
-/* Use your site's main background color here */
+/* Page background */
 body {
-    background-color: #f4f4f4; /* Example: light gray */
-    color: #333; /* Example: dark text for contrast */
+    background-color: #f4f4f4; /* Light background */
+    color: #333333; /* General body text color */
 }
 
+/* Header styling */
 header {
-    background-color: #1e3d59; /* Example: dark blue */
-    color: white;
+    background-color: #1e3d59; /* Dark blue */
+    color: #ffffff;
 }
 
+/* Navigation */
 nav a:hover {
-    background-color: #ff6f61; /* Example: coral/orange */
-    color: white;
+    background-color: #ff6f61; /* Accent color on hover */
+    color: #ffffff; /* Ensure text is readable */
+}
+
+/* Hero text */
+.home-title {
+    color: #1e3d59; /* Primary branding color */
+}
+
+h4 {
+    color: #1e3d59; /* Match branding or provide contrast */
 }
 
 /* Buttons */
 .book,
 .join {
-    background-color: #1e3d59; /* Match header or use branded accent */
-    color: white;
+    background-color: #1e3d59;
+    color: #ffffff;
     padding: 10px 20px;
     text-decoration: none;
     display: inline-block;
@@ -53,27 +65,43 @@ nav a:hover {
 
 .book:hover,
 .join:hover {
-    background-color: #ff6f61; /* Example: hover accent color */
-    color: white;
+    background-color: #ff6f61;
+    color: #ffffff;
 }
 
-/* Background element */
+/* Background element section */
 #background {
-    background-color: #dbe9ee; /* Example: soft blue */
+    background-color: #dbe9ee; /* Soft background */
 }
 
 /* Message section */
 .msg {
-    background-color: #ffffff; /* Example: white for readability */
-    color: #1e3d59;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
+}
+
+.msg h2 {
+    color: #1e3d59; /* Header color for message section */
+}
+
+.msg p {
+    color: #333333; /* Paragraph text in message section */
 }
 
 /* Footer */
 footer {
     background-color: #1e3d59;
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding: 15px 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffcc00; /* Highlight link hover with a bright contrast */
 }
