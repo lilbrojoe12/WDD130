@@ -1,8 +1,10 @@
-#content{
-    max-width: 1600px; 
+/* Layout and Content Centering */
+#content {
+    max-width: 1600px;
     margin: 0 auto;
 }
 
+/* Centering text */
 nav a {
     text-align: center;
 }
@@ -19,6 +21,59 @@ nav a {
 main section {
     text-align: center;
 }
+
+/* Background and Text Colors */
+
+/* Use your site's main background color here */
+body {
+    background-color: #f4f4f4; /* Example: light gray */
+    color: #333; /* Example: dark text for contrast */
+}
+
+header {
+    background-color: #1e3d59; /* Example: dark blue */
+    color: white;
+}
+
+nav a:hover {
+    background-color: #ff6f61; /* Example: coral/orange */
+    color: white;
+}
+
+/* Buttons */
+.book,
+.join {
+    background-color: #1e3d59; /* Match header or use branded accent */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.book:hover,
+.join:hover {
+    background-color: #ff6f61; /* Example: hover accent color */
+    color: white;
+}
+
+/* Background element */
 #background {
-    height: 725px;
+    background-color: #dbe9ee; /* Example: soft blue */
+}
+
+/* Message section */
+.msg {
+    background-color: #ffffff; /* Example: white for readability */
+    color: #1e3d59;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #1e3d59;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
 }
