@@ -105,6 +105,14 @@ footer a:hover {
     text-decoration: underline;
 }
 
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
 /* Image Widths */
 .logo {
     width: 80px;
