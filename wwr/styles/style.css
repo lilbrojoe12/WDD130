@@ -7,7 +7,8 @@
 /* Centering text */
 nav a {
     text-align: center;
-    color: #ffffff; /* Replace with your text color */
+    color: #ffffff;
+    text-decoration: none;
 }
 
 #hero-msg h1,
@@ -24,26 +25,22 @@ main section {
 }
 
 /* Background and Text Colors */
-
-/* Page background */
 body {
     background-color: #f4f4f4;
     color: #333333;
 }
 
-/* Header styling */
 header {
     background-color: #1e3d59;
     color: #ffffff;
 }
 
-/* Navigation */
 nav a:hover {
     background-color: #ff6f61;
     color: #ffffff;
+    text-decoration: underline;
 }
 
-/* Hero text */
 .home-title {
     color: #1e3d59;
 }
@@ -67,6 +64,7 @@ h4 {
 .join:hover {
     background-color: #ff6f61;
     color: #ffffff;
+    text-decoration: underline;
 }
 
 /* Background element section */
@@ -104,6 +102,7 @@ footer a {
 
 footer a:hover {
     color: #ffcc00;
+    text-decoration: underline;
 }
 
 /* Image Widths */
