@@ -145,12 +145,10 @@ main.rivers-grid {
 }
 
 .wireframe-img {
-    width: 90%;
-    max-width: 600px;
-    display: block;
+    width: 70%;
+    max-width: 500px;
     margin: 20px auto;
-    border: 2px solid #ccc;
-    border-radius: 8px;
 }
+
 
 
