@@ -145,7 +145,7 @@ main.rivers-grid {
 }
 
 .wireframe-img {
-    width: 600px; /* You can adjust this number as needed */
+    width: 600px;
     max-width: 90%;
     height: auto;
     border: 4px solid #1e3d59;
