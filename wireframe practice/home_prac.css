@@ -1,0 +1,103 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #ddd;
+  border-bottom: 2px solid #aaa;
+  padding: 20px 0;
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+/* Section Layout */
+section {
+  border: 2px dashed #aaa;
+  background-color: #fff;
+  margin: 30px 0;
+  padding: 30px;
+}
+
+/* Split Section (Two Columns) */
+.split {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.split > div {
+  flex: 1 1 45%;
+  min-width: 300px;
+}
+
+/* Section Headings */
+section h2 {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+/* Placeholder Styles */
+.image-placeholder {
+  border: 2px dotted #999;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  text-align: center;
+  font-style: italic;
+  color: #666;
+}
+
+/* FAQ List */
+.faq ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #ddd;
+  text-align: center;
+  padding: 15px 0;
+  border-top: 2px solid #aaa;
+  margin-top: 40px;
+}
