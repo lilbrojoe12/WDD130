@@ -184,7 +184,7 @@ nav a:hover {
 }
 
 .small-wireframe {
-  width: 600px; /* or any desired smaller width */
+  width: 600px;
   height: auto;
   margin-bottom: 1em;
 }
